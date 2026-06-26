@@ -1,6 +1,6 @@
-# Tiara Coaching - Premium Luxury Portfolio Website
+# Vishmitha's Portfolio Website
 
-This is a high-fidelity, responsive personal brand website for **Tiara**, business coach and podcaster. Built using a modern luxury editorial aesthetic reminiscent of high-end fashion magazines (inspired by Squarespace/Webflow premium templates).
+Full Stack Developer | Passionate about building scalable web applications with modern technologies. Focused on clean code, responsive UI, backend development, and continuous learning. 🚀
 
 Developed using **React + Tailwind CSS v4 + Framer Motion** for fluid animations, smooth viewport reveals, and interactive mouse-glow states.
 
