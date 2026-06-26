@@ -27,7 +27,7 @@ export default function App() {
         onClick={scrollToTop}
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
-        className="fixed top-24 left-8 md:left-12 lg:left-14 w-16 h-16 md:w-20 md:h-20 bg-burgundy rounded-full flex items-center justify-center shadow-xl cursor-pointer hover:rotate-12 hover:scale-105 active:scale-95 transition-all duration-300 border-2 border-dashed border-cream/30 z-[100] group select-none"
+        className="hidden md:flex fixed top-24 left-8 md:left-12 lg:left-14 w-16 h-16 md:w-20 md:h-20 bg-burgundy rounded-full items-center justify-center shadow-xl cursor-pointer hover:rotate-12 hover:scale-105 active:scale-95 transition-all duration-300 border-2 border-dashed border-cream/30 z-[100] group select-none"
         role="button"
         aria-label="Vishmitha Brand Emblem (Scroll to Top)"
       >

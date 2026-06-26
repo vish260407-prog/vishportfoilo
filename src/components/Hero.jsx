@@ -43,7 +43,7 @@ export default function Hero() {
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-0 items-center relative z-10">
 
         {/* LEFT COLUMN: Annotations (3 cols on desktop) */}
-        <div className="lg:col-span-3 order-2 lg:order-1 flex flex-col gap-10 md:gap-12 lg:gap-16 items-center lg:items-start text-center lg:text-left">
+        <div className="lg:col-span-3 order-2 lg:order-1 flex flex-col gap-6 md:gap-12 lg:gap-16 items-center lg:items-start text-center lg:text-left">
 
           {/* Annotation 1 */}
           <motion.div
@@ -92,12 +92,12 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="text-burgundy leading-none text-center mb-6 lg:mb-0 select-none z-0 lg:absolute lg:top-[-3.5rem] lg:left-1/2 lg:-translate-x-1/2 lg:w-[160%] whitespace-nowrap flex items-center justify-center gap-x-3 md:gap-x-5"
+            className="text-burgundy leading-none text-center mb-8 lg:mb-0 select-none z-0 lg:absolute lg:top-[-3.5rem] lg:left-1/2 lg:-translate-x-1/2 lg:w-[160%] flex flex-col md:flex-row items-center justify-center gap-y-4 md:gap-y-0 gap-x-3 md:gap-x-5"
           >
-            <span className="font-serif-display font-light tracking-normal text-[3rem] sm:text-[4.5rem] md:text-[6rem] lg:text-[6.5vw]">
+            <span className="font-serif-display font-light tracking-normal text-[2.5rem] sm:text-[4.5rem] md:text-[6rem] lg:text-[6.5vw]">
               Hi, I'm
             </span>
-            <span className="font-signature font-normal text-[5.5rem] sm:text-[8rem] md:text-[10.5rem] lg:text-[11vw] leading-[0.2] tracking-normal inline-block transform -rotate-1 select-none pointer-events-none pt-4 md:pt-6">
+            <span className="font-signature font-normal text-[4.2rem] sm:text-[8rem] md:text-[10.5rem] lg:text-[11vw] leading-[0.2] md:leading-[0.2] tracking-normal inline-block transform -rotate-2 md:-rotate-1 select-none pointer-events-none pt-4 md:pt-6">
               Vishmitha
             </span>
           </motion.h1>
@@ -108,7 +108,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="relative w-[80%] sm:w-[60%] lg:w-[90%] max-w-[420px] z-10 mt-6 lg:mt-20 group select-none"
+            className="relative w-[85%] sm:w-[60%] lg:w-[90%] max-w-[420px] z-10 mt-2 lg:mt-20 group select-none"
           >
             <img
               src="assets/img 3.jpeg"
@@ -120,7 +120,7 @@ export default function Hero() {
         </div>
 
         {/* RIGHT COLUMN: Annotation & Action (3 cols on desktop) */}
-        <div className="lg:col-span-3 order-3 lg:order-3 flex flex-col gap-10 lg:gap-24 items-center lg:items-end text-center lg:text-right mt-4 lg:mt-0">
+        <div className="lg:col-span-3 order-3 lg:order-3 flex flex-col gap-6 lg:gap-24 items-center lg:items-end text-center lg:text-right mt-6 lg:mt-0">
 
           {/* Annotation 3 */}
           <motion.div
